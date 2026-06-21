@@ -1,37 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Somali Clinic Agent</title>
-</head>
+# Hospital Management Database
 
-<body>
+## Project Overview
+This project is a Hospital Management Database built using MySQL.
 
-<div id="root"></div>
+The database is designed to manage:
 
-<script>
-  window.wxOConfiguration = {
-    orchestrationID: "20260525-1827-2761-707b-e5d9526e3186_20260525-1842-1766-30ac-1a64ecb797a5",
-    hostURL: "https://dl.watson-orchestrate.ibm.com",
-    rootElementID: "root",
-    chatOptions: {
-      agentId: "c7965fa4-012e-4690-8a9c-f3b92802c0cd",
-      agentEnvironmentId: "8bd2c914-2a7a-4007-8ae3-ee9e3510e8d1"
-    }
-  };
+- Patients
+- Doctors
+- Departments
+- Appointments
+- Medical Records
+- Prescriptions
+- Medicines
+- Admissions
+- Rooms
+- Bills
+- Payments
+- Staff
 
-  setTimeout(function () {
-    const script = document.createElement('script');
-    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+## Database Features
 
-    script.addEventListener('load', function () {
-      wxoLoader.init();
-    });
+- Relational database design
+- Primary Keys and Foreign Keys
+- Data insertion using SQL
+- Joins between tables
+- Aggregate functions
+- Filtering and sorting data
+- Grouping and reporting queries
 
-    document.head.appendChild(script);
-  }, 0);
-</script>
+## Technologies Used
 
-</body>
-</html>
+- MySQL
+- DBeaver
+- SQL
+
+## Database Structure
+
+The database contains the following tables:
+
+1. patients
+2. doctors
+3. departments
+4. appointments
+5. medical_records
+6. prescriptions
+7. medicines
+8. rooms
+9. admissions
+10. bills
+11. payments
+12. staff
+
+## Sample SQL Operations
+
+- CREATE DATABASE
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- COUNT
+- AVG
+- MIN
+- MAX
+- JOIN
+
+## ER Diagram
+
+The database ER Diagram is included in:
+
+ER_Diagram.png
+
+## Author
+
+Abdisamad Kasim Ahmed
+
+LinkedIn:
+(Add your LinkedIn profile link here)
+
+GitHub:
+https://github.com/Abdisamad-Kasim/Hospital-Management-Database
