@@ -73,6 +73,13 @@ The database ER Diagram is included in:
 
 ER_Diagram.png
 
+## Project Files
+
+- hospital_management_database.sql
+- dump-hospital_db-202606230206.sql
+- ER_Diagram.png
+- README.md
+
 ## Latest Update
 
 ### June 2026
