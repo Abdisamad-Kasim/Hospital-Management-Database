@@ -73,6 +73,33 @@ The database ER Diagram is included in:
 
 ER_Diagram.png
 
+## Latest Update
+
+### June 2026
+
+Added sample data for the following tables:
+
+* Patients
+* Doctors
+* Departments
+* Medical Records
+* Prescriptions
+* Bills
+* Payments
+
+Additional SQL queries were added for:
+
+* Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+* String Functions (LENGTH, UCASE, LCASE)
+* Date Functions (DAY, DATEDIFF, DATE_ADD, DATE_SUB)
+* Joins and Subqueries
+* Reporting and Analysis Queries
+
+Database backup file included:
+
+`dump-hospital_db-202606230206.sql`
+
+
 ## Author
 
 Abdisamad Kasim Ahmed
