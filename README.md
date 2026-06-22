@@ -78,7 +78,7 @@ ER_Diagram.png
 Abdisamad Kasim Ahmed
 
 LinkedIn:
-(Add your LinkedIn profile link here)
+(www.linkedin.com/in/abdisamad-ahmed-b53551219)
 
 GitHub:
 https://github.com/Abdisamad-Kasim/Hospital-Management-Database
