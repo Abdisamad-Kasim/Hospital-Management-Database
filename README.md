@@ -78,7 +78,7 @@ ER_Diagram.png
 ### Aggregate Functions
 Demonstrates COUNT, SUM, AVG, MAX, and MIN functions.
 
-![Aggregate Functions](screenshots/aggregate-functions.png)
+aggregate-functions.png
 
 ### String Functions
 Demonstrates LENGTH, UCASE, and LCASE functions.
