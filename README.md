@@ -71,7 +71,7 @@ The database contains the following tables:
 
 The database ER Diagram is included in:
 
-ER_Diagram.png
+![ER Diagram](ER_Diagram.png)
 
 ## SQL Skills Demonstrated
 
