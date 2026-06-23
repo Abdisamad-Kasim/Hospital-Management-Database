@@ -73,6 +73,12 @@ The database ER Diagram is included in:
 
 ER_Diagram.png
 
+### GROUP BY, HAVING and ORDER BY
+
+Groups patient records by gender, filters groups using HAVING, and sorts results using ORDER BY.
+
+![Group By](screenshots/groupby-having-orderby.png)
+
 ## Project Files
 
 - hospital_management_database.sql
