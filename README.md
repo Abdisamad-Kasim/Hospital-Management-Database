@@ -75,36 +75,17 @@ ER_Diagram.png
 
 ## SQL Query Examples
 
-### Aggregate Functions
-Demonstrates COUNT, SUM, AVG, MAX, and MIN functions.
-
 ![Aggregate Functions](Aggregate%20Functions.png)
 
-### String Functions
-Demonstrates LENGTH, UCASE, and LCASE functions.
+![String Functions](String%20Functions.png)
 
-![String Functions](screenshots/string-functions.png)
+![Date Functions](Date%20Functions.png)
 
-### Date Functions
-Demonstrates DAY, DATEDIFF, DATE_ADD, and DATE_SUB functions.
+![Joins](Joins.png)
 
-![Date Functions](screenshots/date-functions.png)
+![Subqueries](Subqueries.png)
 
-### JOIN Operations
-Combines data from patients, doctors, departments, and appointments.
-
-![Joins](screenshots/joins-query.png)
-
-### Subquery Example
-Retrieves the bill with the highest amount using a subquery.
-
-![Subquery](screenshots/subquery-max-bill.png)
-
-### GROUP BY, HAVING and ORDER BY
-
-Groups patient records by gender, filters groups using HAVING, and sorts results using ORDER BY.
-
-![Group By](screenshots/groupby-having-orderby.png)
+![Group By](GROUP%20BY,%20HAVING,%20ORDER%20BY.png)
 
 ## Project Files
 
