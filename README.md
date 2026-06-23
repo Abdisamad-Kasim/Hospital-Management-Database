@@ -73,6 +73,18 @@ The database ER Diagram is included in:
 
 ER_Diagram.png
 
+## SQL Skills Demonstrated
+
+- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+- String Functions (LENGTH, UCASE, LCASE)
+- Date Functions (DAY, DATEDIFF, DATE_ADD, DATE_SUB)
+- JOIN Operations
+- Subqueries
+- GROUP BY, HAVING, ORDER BY
+- Database Design and Relationships
+- ER Diagram Creation
+- Sample Data Management
+
 ## SQL Query Examples
 
 ![Aggregate Functions](Aggregate%20Functions.png)
@@ -86,6 +98,13 @@ ER_Diagram.png
 ![Subqueries](Subqueries.png)
 
 ![Group By](GROUP%20BY,%20HAVING,%20ORDER%20BY.png)
+
+
+## Tools Used
+
+- MySQL
+- DBeaver
+- GitHub
 
 ## Project Files
 
