@@ -1,7 +1,11 @@
 # Hospital Management Database
 
 ## Project Overview
-This project is a Hospital Management Database built using MySQL.
+## Project Overview
+
+This project is a Hospital Management Database and Analytics System built using MySQL and Python.
+
+The project includes database design, SQL querying, data analysis with Pandas, Excel export, and interactive visualizations using Matplotlib.
 
 The database is designed to manage:
 
