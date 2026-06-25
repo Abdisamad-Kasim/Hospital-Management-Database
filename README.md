@@ -1,61 +1,70 @@
-# Hospital Management Database
+# 🏥 Hospital Management Database & Analytics Dashboard
 
-## Project Overview
-## Project Overview
+## 📌 Project Overview
 
-This project is a Hospital Management Database and Analytics System built using MySQL and Python.
+This project is a **Hospital Management Database and Analytics Dashboard** built using **MySQL, SQL, and Python**.
 
-The project includes database design, SQL querying, data analysis with Pandas, Excel export, and interactive visualizations using Matplotlib.
+The project demonstrates database design, SQL querying, Python integration, data analysis, Excel export, and data visualization. It provides a complete workflow from storing hospital data in a relational database to analyzing and presenting insights through charts and dashboards.
 
-The database is designed to manage:
+---
 
-- Patients
-- Doctors
-- Departments
-- Appointments
-- Medical Records
-- Prescriptions
-- Medicines
-- Admissions
-- Rooms
-- Bills
-- Payments
-- Staff
+# 🚀 Project Features
 
-## Database Features
+### Database Features
 
-- Relational database design
-- Primary Keys and Foreign Keys
-- Data insertion using SQL
-- Joins between tables
-- Aggregate functions
-- Filtering and sorting data
-- Grouping and reporting queries
+- Relational Database Design
+- Primary Keys & Foreign Keys
+- SQL Table Creation
+- Data Insertion
+- Data Retrieval
+- SQL Reporting Queries
 
-## Technologies Used
+### Python Analytics Features
 
+- Connect Python to MySQL Database
+- Execute SQL Queries using Python
+- Load SQL data into Pandas DataFrames
+- Analyze Patient Data
+- Export Query Results to Excel
+- Generate Charts using Matplotlib
+- Build an Analytics Dashboard
+
+---
+
+# 🛠 Technologies Used
+
+- Python
 - MySQL
-- DBeaver
 - SQL
+- Pandas
+- Matplotlib
+- OpenPyXL
+- MySQL Connector
+- DBeaver
+- GitHub
 
-## Database Structure
+---
+
+# 🗂 Database Structure
 
 The database contains the following tables:
 
-1. patients
-2. doctors
-3. departments
-4. appointments
-5. medical_records
-6. prescriptions
-7. medicines
-8. rooms
-9. admissions
-10. bills
-11. payments
-12. staff
+1. Patients
+2. Doctors
+3. Departments
+4. Appointments
+5. Medical Records
+6. Prescriptions
+7. Medicines
+8. Admissions
+9. Rooms
+10. Bills
+11. Payments
+12. Staff
 
-## Sample SQL Operations
+---
+
+# 💻 SQL Skills Demonstrated
 
 - CREATE DATABASE
 - CREATE TABLE
@@ -66,90 +75,187 @@ The database contains the following tables:
 - GROUP BY
 - HAVING
 - COUNT
+- SUM
 - AVG
 - MIN
 - MAX
-- JOIN
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- Subqueries
+- Aggregate Functions
+- String Functions
+- Date Functions
+
+---
+
+# 🐍 Python Skills Demonstrated
+
+- mysql.connector
+- pandas.read_sql()
+- DataFrames
+- Data Analysis
+- Excel Export
+- Matplotlib Charts
+- Dashboard Development
+- Statistics Calculation
+
+---
+
+# 📊 Dashboard Features
+
+The Python dashboard includes:
+
+- 📈 Patient Age Bar Chart
+- 🥧 Gender Distribution Pie Chart
+- 📉 Age Distribution Histogram
+- 📋 Statistics Panel
+
+Dashboard Statistics:
+
+- Total Patients
+- Average Age
+- Oldest Patient
+- Youngest Patient
+
+---
+
+# 📷 Project Screenshots
 
 ## ER Diagram
 
-The database ER Diagram is included in:
-
 ![ER Diagram](ER_Diagram.png)
 
-## SQL Skills Demonstrated
-
-- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
-- String Functions (LENGTH, UCASE, LCASE)
-- Date Functions (DAY, DATEDIFF, DATE_ADD, DATE_SUB)
-- JOIN Operations
-- Subqueries
-- GROUP BY, HAVING, ORDER BY
-- Database Design and Relationships
-- ER Diagram Creation
-- Sample Data Management
+---
 
 ## SQL Query Examples
 
+### Aggregate Functions
+
 ![Aggregate Functions](Aggregate%20Functions.png)
+
+### String Functions
 
 ![String Functions](String%20Functions.png)
 
+### Date Functions
+
 ![Date Functions](Date%20Functions.png)
+
+### JOIN Operations
 
 ![Joins](Joins.png)
 
+### Subqueries
+
 ![Subqueries](Subqueries.png)
+
+### GROUP BY / HAVING / ORDER BY
 
 ![Group By](GROUP%20BY,%20HAVING,%20ORDER%20BY.png)
 
+---
 
-## Tools Used
+## Python Dashboard
 
-- MySQL
-- DBeaver
-- GitHub
+> Upload the generated dashboard image as **hospital_dashboard.png**
 
-## Project Files
+![Hospital Dashboard](hospital_dashboard.png)
+
+---
+
+# 📁 Project Files
+
+Database Files
 
 - hospital_management_database.sql
 - dump-hospital_db-202606230206.sql
-- ER_Diagram.png
+
+Python Files
+
+- hospital_patients.py
+- hospital_charts.py
+- hospital_dashboard.py
+
+Generated Files
+
+- patients.xlsx
+- patient_age_chart.png
+- gender_chart.png
+- hospital_dashboard.png
+
+Documentation
+
 - README.md
+- ER_Diagram.png
 
-## Latest Update
+---
 
-### June 2026
+# ▶ How to Run
 
-Added sample data for the following tables:
+## Clone Repository
 
-* Patients
-* Doctors
-* Departments
-* Medical Records
-* Prescriptions
-* Bills
-* Payments
+```bash
+git clone https://github.com/Abdisamad-Kasim/Hospital-Management-Database.git
+```
 
-Additional SQL queries were added for:
+Install Required Libraries
 
-* Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
-* String Functions (LENGTH, UCASE, LCASE)
-* Date Functions (DAY, DATEDIFF, DATE_ADD, DATE_SUB)
-* Joins and Subqueries
-* Reporting and Analysis Queries
+```bash
+pip install pandas matplotlib mysql-connector-python openpyxl
+```
 
-Database backup file included:
+Run Dashboard
 
-`dump-hospital_db-202606230206.sql`
+```bash
+py hospital_dashboard.py
+```
 
+---
 
-## Author
+# 📈 Project Outcomes
 
-Abdisamad Kasim Ahmed
+This project demonstrates the ability to:
 
-LinkedIn:
-(www.linkedin.com/in/abdisamad-ahmed-b53551219)
+- Design relational databases
+- Write advanced SQL queries
+- Connect Python with MySQL
+- Analyze data using Pandas
+- Export data to Excel
+- Build analytical dashboards
+- Visualize data using Matplotlib
 
-GitHub:
-https://github.com/Abdisamad-Kasim/Hospital-Management-Database
+---
+
+# 🔄 Latest Update (June 2026)
+
+### New Python Analytics Module Added
+
+New Features:
+
+- Python connected with MySQL
+- SQL Queries executed from Python
+- Pandas Data Analysis
+- Excel Export
+- Bar Chart
+- Pie Chart
+- Histogram
+- Patient Statistics Dashboard
+
+---
+
+# 👨‍💻 Author
+
+**Abdisamad Kasim Ahmed**
+
+### LinkedIn
+
+https://www.linkedin.com/in/abdisamad-ahmed-b53551219
+
+### GitHub
+
+https://github.com/Abdisamad-Kasim
+
+---
+
+## ⭐ If you found this project useful, please consider giving it a Star.
