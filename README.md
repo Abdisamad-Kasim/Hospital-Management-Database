@@ -102,23 +102,18 @@ The database contains the following tables:
 
 ---
 
-# 📊 Dashboard Features
+## 📊 Python Analytics Dashboard
 
-The Python dashboard includes:
+The dashboard below was generated using Python, Pandas, and Matplotlib after querying data from the MySQL hospital database.
 
-- 📈 Patient Age Bar Chart
-- 🥧 Gender Distribution Pie Chart
-- 📉 Age Distribution Histogram
-- 📋 Statistics Panel
+It includes:
 
-Dashboard Statistics:
+- Patient Age Bar Chart
+- Gender Distribution Pie Chart
+- Age Distribution Histogram
+- Patient Statistics Summary
 
-- Total Patients
-- Average Age
-- Oldest Patient
-- Youngest Patient
-
----
+![Hospital Dashboard](hospital_dashboard.png)
 
 # 📷 Project Screenshots
 
@@ -164,32 +159,21 @@ Dashboard Statistics:
 
 ---
 
-# 📁 Project Files
+## 📁 Project Structure
 
-Database Files
-
-- hospital_management_database.sql
-- dump-hospital_db-202606230206.sql
-
-Python Files
-
-- hospital_patients.py
-- hospital_charts.py
-- hospital_dashboard.py
-
-Generated Files
-
-- patients.xlsx
-- patient_age_chart.png
-- gender_chart.png
-- hospital_dashboard.png
-
-Documentation
-
-- README.md
-- ER_Diagram.png
-
----
+Hospital-Management-Database/
+│
+├── hospital_management_database.sql
+├── dump-hospital_db.sql
+├── hospital_dashboard.py
+├── hospital_patients.py
+├── hospital_charts.py
+├── requirements.txt
+├── hospital_dashboard.png
+├── patient_age_chart.png
+├── gender_chart.png
+├── ER_Diagram.png
+└── README.md
 
 # ▶ How to Run
 
@@ -202,13 +186,14 @@ git clone https://github.com/Abdisamad-Kasim/Hospital-Management-Database.git
 Install Required Libraries
 
 ```bash
+pip install -r requirements.txt
 pip install pandas matplotlib mysql-connector-python openpyxl
 ```
 
 Run Dashboard
 
 ```bash
-py hospital_dashboard.py
+python hospital_dashboard.py
 ```
 
 ---
