@@ -177,26 +177,36 @@ Hospital-Management-Database/
 
 # ▶ How to Run
 
-## Clone Repository
+## 🚀 Clone Repository
 
 ```bash
 git clone https://github.com/Abdisamad-Kasim/Hospital-Management-Database.git
+cd Hospital-Management-Database
 ```
 
-Install Required Libraries
+---
+
+## 📦 Install Required Libraries
+
+Using requirements.txt
 
 ```bash
 pip install -r requirements.txt
+```
+
+Or install manually
+
+```bash
 pip install pandas matplotlib mysql-connector-python openpyxl
 ```
 
-Run Dashboard
+---
+
+## ▶️ Run the Dashboard
 
 ```bash
 python hospital_dashboard.py
 ```
-
----
 
 # 📈 Project Outcomes
 
